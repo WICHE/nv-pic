@@ -16,3 +16,5 @@ shared:
       dst: sites/default/files
     - src: root_files
       dst: files
+    - src: uploads
+      dst: sites/default/uploads
