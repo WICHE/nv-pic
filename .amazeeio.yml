@@ -1,4 +1,4 @@
-sitegroup: nv-pic_wiche_edu
+sitegroup: nv-pic
 
 deploy_tasks:
   development:
