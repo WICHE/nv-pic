@@ -15,6 +15,6 @@ shared:
     - src: files
       dst: sites/default/files
     - src: root_files
-      dst: files/documents
-    - src: images
-      dst: images
+      dst: files
+    - src: uploads
+      dst: sites/default/uploads
