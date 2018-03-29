@@ -3,10 +3,11 @@
 *.sql
 *.zip
 
+
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
 sites/*/uploads
 files/
-
+sites/all/themes/zen_PsychIntern/images/
 
