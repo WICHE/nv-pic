@@ -21,7 +21,12 @@ cronjobs:
     service: cli
 
 environments:
-  prod:
+   master:
     routes:
       - varnish:
-        - "nv-pic.org" 
+        - "www.nv-pic.org":
+            tls-acme: 'false'
+            insecure: Redirect
+        - "nv-pic.org":
+            tls-acme: 'false'
+            insecure: Redirect"
