@@ -1073,7 +1073,7 @@ table {
 @media all and (min-width: 960px) {
   /* line 399, ../sass/layouts/_responsive.scss */
   #page #header {
-    background: url(../images/CO-PIC-banner.png) 0 0 no-repeat;
+    background: url(../images/NV-PIC-banner.png) 0 0 no-repeat;
     height: 192px;
     position: relative;
     /* Wrapper for website name and slogan. */
@@ -2069,7 +2069,7 @@ tr.selected td {
 /* line 805, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1412095792');
+  background-image: url('../images/progress.gif?1557851021');
 }
 
 /* line 811, ../sass/components/_misc.scss */
