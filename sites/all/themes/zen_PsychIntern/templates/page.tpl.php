@@ -34,7 +34,7 @@
     <?php endif; ?>
 
     <?php print render($page['header']); ?>
-	<div class="right-logo"><img src="/sites/default/uploads/nv-pic-logo.png" height="238" width="168" alt="Nevada Psychology Internship Consortium logo"</div>
+	<div class="right-logo"><img src="/sites/default/uploads/sites/default/uploads/nv-pic-logo.png" height="238" width="168" alt="Nevada Psychology Internship Consortium logo"</div>
   </header>
   <div id="main">
 
