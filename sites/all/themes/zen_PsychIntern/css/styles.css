@@ -1073,8 +1073,8 @@ table {
 @media all and (min-width: 960px) {
   /* line 399, ../sass/layouts/_responsive.scss */
   #page #header {
-    background: url(../images/NV-PIC-banner.png) 0 0 no-repeat;
-    height: 192px;
+    background: url(../images/NV-PIC-banner.jpg) 0 0 no-repeat;
+    height: 238px;
     position: relative;
     /* Wrapper for website name and slogan. */
   }
@@ -1089,7 +1089,7 @@ table {
   #page #header #name-and-slogan h1#site-name a.header__site-link {
     /*font-family: 'humnst777_cn_btbold';*/
     font-family: 'Open Sans', sans-serif;
-    color: #7a7b7e;
+    color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1114,16 +1114,15 @@ table {
     background: #f0f0f0;
     padding: 4px;
     overflow: visible;
-    margin: 8px 0;
     border-bottom: 2px solid #ccc;
   }
-  /* line 446, ../sass/layouts/_responsive.scss */
+  /* line 445, ../sass/layouts/_responsive.scss */
   #page #navigation .search-box {
     position: absolute;
     top: 6px;
     right: 12px;
   }
-  /* line 453, ../sass/layouts/_responsive.scss */
+  /* line 452, ../sass/layouts/_responsive.scss */
   #page #phone-nav, #page .nav-toggle {
     display: none;
   }
@@ -1131,12 +1130,12 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 464, ../sass/layouts/_responsive.scss */
+  /* line 463, ../sass/layouts/_responsive.scss */
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-  /* line 466, ../sass/layouts/_responsive.scss */
+  /* line 465, ../sass/layouts/_responsive.scss */
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -1146,18 +1145,18 @@ table {
     padding-left: 16px;
     padding-bottom: 16px;
   }
-  /* line 471, ../sass/layouts/_responsive.scss */
+  /* line 470, ../sass/layouts/_responsive.scss */
   .sidebar-first #content .hideme {
     display: none;
   }
-  /* line 477, ../sass/layouts/_responsive.scss */
+  /* line 476, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 480, ../sass/layouts/_responsive.scss */
+  /* line 479, ../sass/layouts/_responsive.scss */
   .sidebar-first .region-sidebar-first .block {
     padding-right: 12px;
   }
@@ -1165,23 +1164,23 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 489, ../sass/layouts/_responsive.scss */
+  /* line 488, ../sass/layouts/_responsive.scss */
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 491, ../sass/layouts/_responsive.scss */
+  /* line 490, ../sass/layouts/_responsive.scss */
   .sidebar-second #content {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-  /* line 493, ../sass/layouts/_responsive.scss */
+  /* line 492, ../sass/layouts/_responsive.scss */
   .sidebar-second #content .hideme {
     display: none;
   }
-  /* line 499, ../sass/layouts/_responsive.scss */
+  /* line 498, ../sass/layouts/_responsive.scss */
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1192,31 +1191,31 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-  /* line 507, ../sass/layouts/_responsive.scss */
+  /* line 506, ../sass/layouts/_responsive.scss */
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-  /* line 509, ../sass/layouts/_responsive.scss */
+  /* line 508, ../sass/layouts/_responsive.scss */
   .two-sidebars #content {
     float: left;
     width: 60%;
     margin-left: 20%;
     margin-right: -80%;
   }
-  /* line 512, ../sass/layouts/_responsive.scss */
+  /* line 511, ../sass/layouts/_responsive.scss */
   .two-sidebars #content .hideme {
     display: none;
   }
-  /* line 518, ../sass/layouts/_responsive.scss */
+  /* line 517, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-  /* line 523, ../sass/layouts/_responsive.scss */
+  /* line 522, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
