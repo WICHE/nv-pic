@@ -1101,7 +1101,7 @@ table {
   #page #header .right-logo {
     position: absolute;
     right: 35px;
-    top: 30px;
+    top: 20px;
   }
   /* line 431, ../sass/layouts/_responsive.scss */
   #page #header .right-logo img {
