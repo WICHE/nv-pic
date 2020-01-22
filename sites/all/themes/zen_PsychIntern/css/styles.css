@@ -2151,7 +2151,7 @@ table.nv-pic tr th.last-updated {
 #block-search-form {
   position: absolute;
   right: 16px;
-  top: 12px;
+  top: 200px;
 }
 
 /* line 893, ../sass/components/_misc.scss */
