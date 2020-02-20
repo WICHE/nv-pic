@@ -131,10 +131,15 @@ $zen-auto-include-item-base: false;
 		.right-logo{
 			display:none;
 		}
+	  
+	   #block-search-form {
+			display:none;
+		}
+	  
 		}//end header
 		
 		
-			/*mobile nav for phones*/
+				/*mobile nav for phones*/
 			#phone-nav{
 				background:#16608f;
 					.nav-toggle{
@@ -144,7 +149,7 @@ $zen-auto-include-item-base: false;
 				.region-phone{
 					#block-menu-menu-phone-menu{
 						.menu{
-							li{
+							li, li.expanded{
 								border-bottom:1px solid #fff;
 								a:link, a:visited, a:active{
 									display:block;
@@ -154,18 +159,28 @@ $zen-auto-include-item-base: false;
 									font-size:1.3em;
 									background:#103b57;
 									line-height:1.8em;
-								}
+									}
+									
+									/*drop down from expanded list item*/
+								ul.menu{
+									li{
+											a:link, a:visited, a:active{
+												background:#164665;
+												font-size:1.1em;
+												padding-left:20px;
+											}
+										}
+									}
 								
+
 								li:last-child{
 									border-bottom:none;
-									padding-bottom:6px;
 								}
 							}
 						}
 					}//end block-menu-menu-phone-menu
 				}//end region-phone
 			}//end phone-nav
-			
 		#main{
 			#content{
 				
